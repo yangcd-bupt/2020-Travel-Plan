@@ -1,0 +1,18 @@
+#ifndef CONNECTION_H
+#define CONNECTION_H
+#include <QMessageBox>
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QDebug>
+
+class MySql
+{
+public :
+    MySql();
+    static bool createConnection();
+    
+    QSqlQuery selectCity(QString sql);
+};
+
+
+#endif // CONNECTION_H

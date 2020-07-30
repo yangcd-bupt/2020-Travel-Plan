@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="map">resource/地图.png</file>
+        <file alias="plane">resource/飞机.ico</file>
+        <file alias="train">resource/火车.ico</file>
+        <file alias="car">resource/汽车.ico</file>
+        <file alias="logo">resource/logo.ico</file>
+        <file alias="passenger">resource/乘客.ico</file>
+    </qresource>
+</RCC>
